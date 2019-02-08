@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="myConnectionStringOK" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">server=mysql.resto-boulot.fr;uid=rb_root;pwd=***REMOVED******REMOVED***;database=resto_boulot_fr_new;</Value>
+      <Value Profile="(Default)">server=mysql.resto-boulot.fr;uid=rb_root;pwd=********;database=resto_boulot_fr_new;</Value>
     </Setting>
     <Setting Name="myConnectionString" Type="System.String" Scope="User">
-      <Value Profile="(Default)">server=localhost;uid=root;pwd=***REMOVED***;database=resto_boulot_fr_new;</Value>
+      <Value Profile="(Default)">server=localhost;uid=root;pwd=********;database=resto_boulot_fr_new;</Value>
     </Setting>
   </Settings>
 </SettingsFile>
