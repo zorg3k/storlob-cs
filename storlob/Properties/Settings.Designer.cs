@@ -25,7 +25,7 @@ namespace storlob.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=mysql.resto-boulot.fr;uid=rb_root;pwd=***REMOVED******REMOVED***;database=resto_boulot_" +
+        [global::System.Configuration.DefaultSettingValueAttribute("server=mysql.resto-boulot.fr;uid=rb_root;pwd=********;database=resto_boulot_" +
             "fr_new;")]
         public string myConnectionStringOK {
             get {
@@ -35,7 +35,7 @@ namespace storlob.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;uid=root;pwd=***REMOVED***;database=resto_boulot_fr_new;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;uid=root;pwd=*******;database=resto_boulot_fr_new;")]
         public string myConnectionString {
             get {
                 return ((string)(this["myConnectionString"]));
